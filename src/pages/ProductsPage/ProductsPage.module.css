@@ -1,0 +1,13 @@
+/* Список товаров сеткой в три колонки */
+.list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px 60px;
+  padding: 20px 40px;
+  border: 1px solid #000000;
+}
+
+.message {
+  font-size: 20px;
+  text-align: center;
+}

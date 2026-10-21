@@ -1,0 +1,53 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding: 40px 20px;
+  border: 3px solid #000000;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 480px;
+  padding: 24px 24px 30px;
+  border: 1px solid #000000;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.image {
+  align-self: center;
+  width: 200px;
+  height: 240px;
+  object-fit: contain;
+}
+
+.text {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.message {
+  font-size: 20px;
+}
+
+.button {
+  width: 180px;
+  padding: 12px;
+  border: 3px solid #000000;
+  background-color: #ffffff;
+  font-size: 18px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #eeeeee;
+}
